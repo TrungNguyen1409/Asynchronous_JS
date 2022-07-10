@@ -69,7 +69,7 @@ console.log(fetchUsers()); // fetchUsers return a promise both res and data are 
 const username= fetch('https://jsonplaceholder.typicode.com/users')
     .then((res)=>res.json())
     //.then(data => console.log(data))
-    .then((values) => {return values});
+    //.then((values) => {return values});
 
 const printName = () => {
     username.then((a) => {
