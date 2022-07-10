@@ -59,7 +59,7 @@ async function fetchUsers(){
     const res = await fetch('https://jsonplaceholder.typicode.com/users'); 
     const data = await res.json();
     //console.log(data);
-    return await data;
+    return data;
 }
 
 console.log(fetchUsers()); // fetchUsers return a promise both res and data are promises!
